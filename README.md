@@ -18,18 +18,36 @@ This project analyzes a dataset of student scores in math, reading, and writing 
 
 ## 🧪 Sample Predictions
 
-![Prediction Graph](https://user-images.githubusercontent.com/your-github-id/your-graph.png) <!-- Optional, if you have graph -->
+![Prediction Graph](https://github.com/Sumanbabu18/Student-Performance-Predictor/blob/main/Figure_1.png) <!-- Optional, if you have graph -->
 
 ---
 
 ## 📁 Dataset
 
-Sample Dataset : 
+[Sample Dataset](https://github.com/Sumanbabu18/Student-Performance-Predictor/blob/main/StudentsPerformance.csv)
 
 
-## 🚀 How to Run the Project
+## 🚀 Required Library
+pip install(given library) 
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+joblib
 
-1. Clone this repository:
-```bash
-git clone https://github.com/yourusername/student-performance-predictor.git
-cd student-performance-predictor
+## 🛠️ Technologies Used
+Python
+Pandas, NumPy
+Matplotlib, Seaborn
+Scikit-learn
+Jupyter / VS Code
+
+## Run Code
+python student_performance.py
+
+## 📈 Model Performance
+Model: Linear Regression
+R² Score: ~0.84
+Mean Squared Error: ~24.85
+
